@@ -12,9 +12,8 @@ tensorboard-data-server==0.7.2
 tensorflow==2.14.0
 tensorflow-estimator==2.14.0
 tensorflow-io-gcs-filesystem==0.34.0
-tensorflow-macos==2.14.0
 pandas==2.1.2
 tzdata==2023.3
 pytz==2023.3.post1
 python-dotenv==1.0.0
-openai==1.2.4
+openai==0.28
