@@ -42,7 +42,7 @@ def upload_image():
 			os.remove(prev_image)
 		filename = photos.save(form.photo.data)
 		file_url = url_for('get_file', filename=filename)
-		loader = f"uploads/{filename}" # Add correct path to image
+		loader = "uploads/" + filename # Add correct path to image
 		print("\n\n\nFilename: ", filename)
 		prev_image = loader
 		snake_name,poisonous,description, country, scientific  = image_recognition(loader) # Run image recognition function in imagedetection.py
