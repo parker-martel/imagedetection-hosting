@@ -10,7 +10,7 @@
     "run": "^1.4.0"
   },
   "scripts": {
-    "flask": "python app.py",
+    "flask": "python3 app.py",
     "tailwind": "npx tailwindcss -i ./static/src/input.css -o ./static/dist/css/output.css --watch",
     "start": "npm-run-all --parallel flask tailwind"
   }
